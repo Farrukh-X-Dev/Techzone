@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HeroImg from "../assets/hero.png";
 
 const Hero = () => {
   return (
@@ -14,8 +15,8 @@ const Hero = () => {
             Software Development, Marketing, or Design — with real-world skills.
           </p>
           <div className="flex flex-wrap gap-4 text-blue-800/80">
-            <span className="bg-blue-100 px-4 py-2 rounded-full font-medium">Trusted by 3000+ students</span>
-            <span className="bg-blue-100 px-4 py-2 rounded-full font-medium">500+ positive Google reviews</span>
+            <span className="">Trusted by 3000+ students</span>
+            <span className=" rounded-full font-medium"></span>
           </div>
           <div className="flex flex-wrap gap-4">
             <Link
@@ -35,19 +36,14 @@ const Hero = () => {
 
         <div className="md:w-1/2 relative flex justify-center">
           <img
-            src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=800&q=80"
+            src={HeroImg}
             alt="Students learning"
-            className="rounded-3xl w-full max-w-md shadow-2xl border border-blue-200/30"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=400&q=80"
-            alt="Team collaboration"
-            className="absolute -bottom-8 -left-8 w-32 md:w-40 rounded-2xl shadow-xl border border-blue-200/30 hidden md:block"
+            className="rounded-3xl w-full bg-transparent max-w-md shadow-2xl border border-blue-200/30"
           />
           <span
-            // src="https://images.unsplash.com/photo-1581091870627-3af7c9a0d4c3?auto=format&fit=crop&w=400&q=80"
-            alt="Coding setup"
-            className="absolute -top-8 -right-8 bg-blue-100 px-4 py- font-medium w-32 md:w-40 rounded-2xl shadow-xl border border-blue-200/30 hidden md:block"
+            className="bg-blue-100 px-4 py-2  font-medium absolute  -bottom-8 -left-8 w-32 md:w-40 rounded-2xl shadow-xl border border-blue-200/30 hidden md:block"
+          > 500+ positive Google reviews</span>
+          <span className="absolute -top-8 -right-8 bg-blue-100 px-4 py- font-medium w-32 md:w-40 rounded-2xl shadow-xl border border-blue-200/30 hidden md:block"
           >Trusted by 3000+ students </span>
         </div>
       </div>
