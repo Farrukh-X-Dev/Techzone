@@ -7,10 +7,10 @@ export default function Hero() {
     <section className="relative bg-blue-50/60 backdrop-blur-xl border-b border-blue-200/30 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 py-20 flex flex-col-reverse md:flex-row items-center gap-12">
         <div className="md:w-1/2 space-y-6">
-          <div class="bg-gradient-to-r from-zinc-500  to-zinc-600 text-transparent font-extrabold text-3xl md:text-4xl [text-wrap:balance] bg-clip-text ">
+          <div className="bg-gradient-to-r from-zinc-500  to-zinc-600 text-transparent font-extrabold text-3xl md:text-4xl [text-wrap:balance] bg-clip-text ">
             Here You Can{" "}
-            <span class="bg-gradient-to-r from-blue-400  to-blue-600 bg-clip-text text-transparent inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
-              <ul class="block animate-text-slide text-left leading-tight [&_li]:block">
+            <span className="bg-gradient-to-r from-blue-400  to-blue-600 bg-clip-text text-transparent inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
+              <ul className="block animate-text-slide text-left leading-tight [&_li]:block">
                 <li>Learn</li>
                 <li>Build</li>
                 <li>Innovate </li>
