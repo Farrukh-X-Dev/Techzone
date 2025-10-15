@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         <div className="flex flex-col">
           <span className="font-bold text-xl leading-tight tracking-wide">Tech-Zone Learning Institute</span>
-          <span className="text-sm text-blue-600">Learn, Build, Grow</span>
+          <span className="text-sm text-blue-600">Learn. Build. Grow</span>
         </div>
       </div>
 
