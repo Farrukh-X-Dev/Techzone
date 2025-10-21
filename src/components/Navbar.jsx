@@ -10,7 +10,7 @@ const Navbar = () => {
   const [digitalOpen, setDigitalOpen] = useState(false);
   const [graphicOpen, setGraphicOpen] = useState(false);
 
-  const linkClass = "relative transition-all duration-300 hover:text-blue-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-orange-400 after:scale-x-0 after:origin-center after:transition-transform after:duration-300 hover:after:scale-x-100";
+  const linkClass = "relative transition-all duration-300 hover:text-blue-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-blue-400 after:scale-x-0 after:origin-center after:transition-transform after:duration-300 hover:after:scale-x-100";
 
   return (
     <header className="sticky top-0 bg-blue-100/30 text-gray-800 flex items-center justify-between px-6 py-4 backdrop-blur-xl z-50 border-b border-blue-200/20 shadow-md">
